@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -24,11 +24,11 @@ requirements:
     - python >=3.8
     - typing
     - comtypes >=1.1.10  # [win]
-    - __win  # [win]
+    - __win    # [win]
 
 test:
   imports:
-    - uiautomation  # [win]
+    - uiautomation
 
 about:
   home: https://github.com/yinkaisheng/Python-UIAutomation-for-Windows
