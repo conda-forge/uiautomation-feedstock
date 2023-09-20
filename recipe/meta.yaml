@@ -24,11 +24,11 @@ requirements:
     - python >=3.8
     - typing
     - comtypes >=1.1.10  # [win]
-    - __win    # [win]
+    - __win  # [win]
 
 test:
   imports:
-    - uiautomation
+    - uiautomation  # [win]
 
 about:
   home: https://github.com/yinkaisheng/Python-UIAutomation-for-Windows
